@@ -34,6 +34,7 @@ nav {
   box-shadow: 0 0 12px -2px black;
   border: 3px solid black;
   border-radius: 30px;
+  opacity: 95%;
 }
 
 footer {
@@ -50,6 +51,7 @@ footer {
   box-shadow: 0 0 12px -2px black;
   border: 3px solid black;
   border-radius: 30px;
+  opacity: 95%;
 }
 
 a {
