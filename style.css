@@ -84,6 +84,7 @@ main img {
 h2 {
   font-size: 2em;
   padding: 20px 0;
+  margin-bottom: 1em;
 }
 
 p {
@@ -99,16 +100,126 @@ main .quote {
 
 section {
   border-top: 1px solid ghostwhite;
+  margin-bottom: 5em;
 }
 
 #about-header {
+  display: flex;
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 1em;
+  margin-top: auto;
+  background-color: steelblue;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10em;
+  border: 1px solid ghostwhite;
+  box-shadow: 0 0 16px -2px black;
+  flex-wrap: wrap;
 }
 
 .about-img {
   width: 150px;
-  margin-top: -4em;
-  overflow-y: hidden;
+  box-shadow: 0 0 12px -2px black;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: -5em 0 0 1em;
+}
+
+#project-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  background-color: azure;
+  box-shadow: 0 0 16px -2px black;
+  color: black;
+  margin: 1em auto;
+  padding: 1.5em;
+  border: 2px solid black;
+}
+
+.projects h2 {
+  max-width: 100%;
+  font-weight: 400;
+  border: 1px solid black;
+  color: ghostwhite;
+  padding: 0.5em 1em;
+  flex-wrap: wrap;
+  background-color: steelblue;
+  box-shadow: 0 0 16px -2px black;
+  margin-bottom: 0;
+}
+
+.project-info {
+  margin-left: 1em;
+}
+
+.project-img {
+  box-shadow: 0 0 16px -2px black;
+  height: 12em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  flex-flow: wrap;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-link {
+  color: blue;
+  font-style: italic;
+  font-size: large;
+  margin-left: -0.1em;
+  border-bottom: 1px solid blue;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75em;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 100%;
+  box-shadow: 0 0 16px -2px black;
+  border: 2px solid black;
+}
+
+.contact-form button {
+  padding: 0.75em;
+  background-color: steelblue;
+  color: ghostwhite;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 16px -2px black;
+  border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+  #about-header {
+    margin-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
