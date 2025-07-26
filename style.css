@@ -88,19 +88,20 @@ h2 {
 }
 
 p {
-  margin: 1em 0 1em;
+  margin: 1em 0 1em 0;
 }
 
 main .quote {
   font-size: 30px;
   text-align: center;
-  margin-top: 10em;
+  margin-top: 5em;
   font-style: italic;
 }
 
 section {
   border-top: 1px solid ghostwhite;
   margin-bottom: 5em;
+  /* margin-top: 10em; */
 }
 
 #about-header {
@@ -126,7 +127,7 @@ section {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: -5em 0 0 1em;
+  margin: -3em 0 0 1em;
 }
 
 #project-box {
